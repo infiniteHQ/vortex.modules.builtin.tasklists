@@ -1,9 +1,10 @@
-#include "../../../include/vortex.h"
-#include "../../../include/vortex_internals.h"
 
+#ifndef DISABLE_MODULE
+#include <Vortex/modules/vortex.modules.builtin.tasks.1.1.0/src/module.h>
 
-
-#include "../../vortex.modules.builtin.tasks/src/module.h"
+#include <Vortex/main/include/vortex.h>
+#include <Vortex/main/include/vortex_internals.h>
+#include <Vortex/tools/editor/app/include/editor.h>
 
 #ifndef __TASKLISTS_MODULE_H__
 #define __TASKLISTS_MODULE_H__
@@ -156,3 +157,4 @@ static void RegisterTasklist()
 
 
 #endif // __TASKLISTS_MODULE_H__
+#endif

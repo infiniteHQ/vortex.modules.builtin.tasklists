@@ -1,4 +1,5 @@
-#include "../../include/vortex.h"
+
+#ifndef DISABLE_MODULE
 #include "./src/instances/tasklistInstance/TasklistRenderInstance.h"
 #include "./src/module.h"
 
@@ -86,3 +87,4 @@ extern "C" ModuleInterface *create_em()
 }
 
 // Initialiser les modules dans le contexte depuis le vortex.config
+#endif

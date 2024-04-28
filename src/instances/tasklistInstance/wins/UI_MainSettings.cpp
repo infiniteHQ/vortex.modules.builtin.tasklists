@@ -1,3 +1,5 @@
+
+#ifndef DISABLE_MODULE
 #include "../TasklistRenderInstance.h"
 #include <array>
 #include <random>
@@ -349,3 +351,4 @@ void TasklistRenderInstance::UI_MainSettings()
         ImGui::End();
     }
 }
+#endif

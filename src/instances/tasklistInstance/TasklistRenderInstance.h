@@ -1,10 +1,9 @@
-#include "../../../../../../lib/newuikit/uikit.h"
-#include "../../../../../../main/include/vortex.h"
+
+#ifndef DISABLE_MODULE
 #include "../../../assets/icons.h"
-#include "../../../../../../main/include/vortex_internals.h"
 #include "../../module.h"
 
-#include "../../../../vortex.modules.builtin.toolchains/src/toolchain.h"
+#include <Vortex/modules/vortex.modules.builtin.toolchain.1.1.0/src/module.h>
 
 #ifndef TasklistRenderInstance_H
 #define TasklistRenderInstance_H
@@ -60,3 +59,4 @@ public:
 };
 
 #endif // TasklistRenderInstance_H
+#endif

@@ -1,3 +1,5 @@
+
+#ifndef DISABLE_MODULE
 #include "TasklistRenderInstance.h"
 
 using namespace VortexMaker;
@@ -306,3 +308,5 @@ void TasklistRenderInstance::Save()
     // Patch json with native Vortex APi
     this->tasklist->PushSave(this->m_currentSave);
 }
+
+#endif

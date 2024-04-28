@@ -1,3 +1,5 @@
+
+#ifndef DISABLE_MODULE
 #include "module.h"
 #include "instances/tasklistInstance/TasklistRenderInstance.h"
 
@@ -185,3 +187,4 @@ void TaskList::PushSave(std::shared_ptr<TaskListSave> save)
     }
 }
 // MODULE FUNCTION
+#endif
