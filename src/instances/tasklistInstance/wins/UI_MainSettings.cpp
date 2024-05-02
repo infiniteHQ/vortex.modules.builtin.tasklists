@@ -111,10 +111,10 @@ void TasklistRenderInstance::UI_MainSettings()
                         items_components.push_back(chaine->name.c_str());
                     }*/
 
-                    for (auto &chaine : this->m_ctx->IO.distHosts)
+                    /*for (auto &chaine : this->m_ctx->IO.distHosts)
                     {
                         items_components.push_back(chaine.name.c_str());
-                    }
+                    }*/
 
                     /*for (auto &chaine : this->m_ctx->IO.toolchains)
                     {
@@ -126,10 +126,10 @@ void TasklistRenderInstance::UI_MainSettings()
                         items_components.push_back(chaine->name.c_str());
                     }*/
 
-                    for (auto &chaine : this->m_ctx->IO.distHosts)
+                    /*for (auto &chaine : this->m_ctx->IO.distHosts)
                     {
                         items_components.push_back(chaine.name.c_str());
-                    }
+                    }*/
                 }
 
                 if (this->parentType == "toolchain")
